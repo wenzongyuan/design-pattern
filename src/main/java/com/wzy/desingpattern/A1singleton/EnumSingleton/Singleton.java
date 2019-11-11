@@ -2,7 +2,6 @@ package com.wzy.desingpattern.A1singleton.EnumSingleton;
 
 /**
  * 枚举单例，使用枚举实现单例，其实是利用了枚举的加载原理，类似于饿汉模式。
- *
  * 特点：线程安全、效率高、但是不可延时。
  */
 public enum Singleton {
@@ -19,18 +18,6 @@ public enum Singleton {
      *     private DemoEnum(String s, int i) {
      *         super(s, i);
      *     }
-     *     public static DemoEnum[] values() {
-     *     	DemoEnum at[];
-     *         int i;
-     *         DemoEnum at1[];
-     *         System.arraycopy(at = ENUM$VALUES, 0, at1 = new T[i = at.length], 0, i);
-     *         return at1;
-     *     }
-     *
-     *     public static DemoEnum valueOf(String s) {
-     *         return (DemoEnum)Enum.valueOf(demo/DemoEnum, s);
-     *     }
-     *
      *     public static final DemoEnum FIRST;
      *     public static final DemoEnum SECOND;
      *     public static final DemoEnum THIRD;
