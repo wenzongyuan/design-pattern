@@ -4,7 +4,6 @@ import com.wzy.desingpattern.A18状态模式.AbstractLiftState;
 import com.wzy.desingpattern.A18状态模式.Context;
 
 public class StopState extends AbstractLiftState {
-
     @Override
     public void openDoor() {
         System.out.println("停止状态下可以打开，委托打开状态");

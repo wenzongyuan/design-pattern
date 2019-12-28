@@ -10,16 +10,11 @@ public abstract class AbstractLiftState {
     public Context getContext() {
         return context;
     }
-
     public void setContext(Context context) {
         this.context = context;
     }
-
     public abstract void openDoor();
-
     public abstract void closeDoor();
-
     public abstract void run();
-
     public abstract void stop();
 }

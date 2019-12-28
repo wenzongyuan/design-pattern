@@ -4,7 +4,6 @@ import com.wzy.desingpattern.A18状态模式.AbstractLiftState;
 import com.wzy.desingpattern.A18状态模式.Context;
 
 public class OpenDoorState extends AbstractLiftState {
-
     @Override
     public void openDoor() {
             System.out.println("电梯开启。。。");
