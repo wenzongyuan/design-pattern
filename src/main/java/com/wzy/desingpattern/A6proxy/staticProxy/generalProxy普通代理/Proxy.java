@@ -1,4 +1,4 @@
-package com.wzy.desingpattern.A6proxy.staticProxy;
+package com.wzy.desingpattern.A6proxy.staticProxy.generalProxy普通代理;
 
 public class Proxy implements IGamePlayer {
 
